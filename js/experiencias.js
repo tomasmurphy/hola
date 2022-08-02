@@ -176,7 +176,7 @@ talleres = `<div class="row marMob">
 </div>
 </div>
 `,
-inicio = `<div class="row marMob mt-5">
+inicio = `<div class="row marMob mt-md-5">
 <div class="cajaDeCajas">
   <div class="cajaImagen">
     

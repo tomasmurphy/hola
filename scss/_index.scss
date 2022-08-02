@@ -303,7 +303,7 @@
 }
 // ABOUT ME
 #about_me {
-  margin-top: 7rem;
+  margin-top: 8vh;
   background: $principal;
   @include desktop {
     margin-top: 7rem;
@@ -312,7 +312,7 @@
     height: auto;
     width: auto;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     
     @include desktop{
@@ -398,7 +398,8 @@
     width: auto;
     display: flex;
     align-items: flex-start;
-    justify-content: center;    
+    justify-content: center;
+    padding-bottom: 3rem;    
     @include desktop{
       margin-left: 10%;
       margin-right: 10%;
@@ -414,6 +415,7 @@
     justify-content: space-evenly;
     background-color: $principal;
     bottom: 0;
+ z-index: 152555;
     @include desktop{
       flex-direction: column;
       margin-left: 2.5%;
@@ -429,16 +431,20 @@
     flex-wrap: wrap;
     justify-content: center;
     position: relative;
-    // margin-bottom: 8rem;
+    margin-bottom: 8rem;
     // margin-right: 5rem;
     height: auto;
     width: 100%;
     @media only screen and (min-width: 350px) {
-      // margin-bottom: 10rem;
+      margin-bottom: 10rem;
     }
     @media only screen and (min-width: 522px) {
-      // margin-bottom: 14rem;
-  }}
+      margin-bottom: 8rem;
+    }
+    @media only screen and (min-width: 1340px) {
+        margin-bottom: 0rem;
+  }
+}
   .cajaImagen {
     width: 10rem;
     height: 8rem;
@@ -448,17 +454,10 @@
     transition: all 0s;
     opacity: 0.3;
     z-index: 0;
-    @media only screen and (min-width: 350px) {
-      width: 10rem;
-      height: 8rem;
-    }
-    @media only screen and (min-width: 450px) {
-      width: 10rem;
-      height: 8rem;
-    }
-    @media only screen and (min-width: 522px) {
+    @include desktop{
       width: 12rem;
       height: 10rem;
+        
     }
     &:hover {
       opacity: 1;
@@ -537,6 +536,6 @@ i{
 }  
 }
 .algo{
-  height: 6vh;
+  height: 8vh;
   width: 100%;
 }

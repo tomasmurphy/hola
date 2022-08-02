@@ -8226,7 +8226,7 @@ footer {
       font-size: 1rem; }
 
 #about_me {
-  margin-top: 7rem;
+  margin-top: 8vh;
   background: #011610; }
   @media screen and (min-width: 768px) {
     #about_me {
@@ -8235,7 +8235,7 @@ footer {
     height: auto;
     width: auto;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center; }
     @media screen and (min-width: 768px) {
       #about_me .marMob {
@@ -8300,7 +8300,8 @@ footer {
     width: auto;
     display: flex;
     align-items: flex-start;
-    justify-content: center; }
+    justify-content: center;
+    padding-bottom: 3rem; }
     @media screen and (min-width: 768px) {
       #experiencias .marMob {
         margin-left: 10%;
@@ -8313,7 +8314,8 @@ footer {
     width: 100%;
     justify-content: space-evenly;
     background-color: #011610;
-    bottom: 0; }
+    bottom: 0;
+    z-index: 152555; }
     @media screen and (min-width: 768px) {
       #experiencias .botonera {
         flex-direction: column;
@@ -8328,8 +8330,18 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
     position: relative;
+    margin-bottom: 8rem;
     height: auto;
     width: 100%; }
+    @media only screen and (min-width: 350px) {
+      #experiencias .cajaDeCajas {
+        margin-bottom: 10rem; } }
+    @media only screen and (min-width: 522px) {
+      #experiencias .cajaDeCajas {
+        margin-bottom: 8rem; } }
+    @media only screen and (min-width: 1340px) {
+      #experiencias .cajaDeCajas {
+        margin-bottom: 0rem; } }
   #experiencias .cajaImagen {
     width: 10rem;
     height: 8rem;
@@ -8339,15 +8351,7 @@ footer {
     transition: all 0s;
     opacity: 0.3;
     z-index: 0; }
-    @media only screen and (min-width: 350px) {
-      #experiencias .cajaImagen {
-        width: 10rem;
-        height: 8rem; } }
-    @media only screen and (min-width: 450px) {
-      #experiencias .cajaImagen {
-        width: 10rem;
-        height: 8rem; } }
-    @media only screen and (min-width: 522px) {
+    @media screen and (min-width: 768px) {
       #experiencias .cajaImagen {
         width: 12rem;
         height: 10rem; } }
@@ -8412,5 +8416,5 @@ footer {
     padding: 0; }
 
 .algo {
-  height: 6vh;
+  height: 8vh;
   width: 100%; }
