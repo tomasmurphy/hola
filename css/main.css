@@ -8294,7 +8294,6 @@ footer {
     margin-bottom: 2rem; }
 
 #experiencias {
-  margin-top: 7vh;
   background: #011610; }
   #experiencias .marMob {
     height: auto;
@@ -8332,8 +8331,8 @@ footer {
     height: auto;
     width: 100%; }
   #experiencias .cajaImagen {
-    width: 6rem;
-    height: 4rem;
+    width: 10rem;
+    height: 8rem;
     margin-left: -2rem;
     margin-right: -2rem;
     margin-bottom: -4rem;
@@ -8342,8 +8341,8 @@ footer {
     z-index: 0; }
     @media only screen and (min-width: 350px) {
       #experiencias .cajaImagen {
-        width: 8rem;
-        height: 6rem; } }
+        width: 10rem;
+        height: 8rem; } }
     @media only screen and (min-width: 450px) {
       #experiencias .cajaImagen {
         width: 10rem;
@@ -8384,13 +8383,13 @@ footer {
     @media screen and (min-width: 768px) {
       #experiencias h3, #experiencias .h3 {
         font-size: 1.2rem; } }
-  #experiencias h4, #experiencias .h4 {
+  #experiencias a {
     color: #e6e6e9;
     font-size: 1.2rem;
     width: auto;
     text-align: center; }
     @media screen and (min-width: 768px) {
-      #experiencias h4, #experiencias .h4 {
+      #experiencias a {
         font-size: 1.2rem; } }
   #experiencias img {
     margin-bottom: 1rem;
@@ -8407,8 +8406,11 @@ footer {
         margin-left: 0rem; } }
   #experiencias a {
     color: #e6e6e9;
-    text-decoration: none;
-    margin-bottom: 2rem; }
+    text-decoration: none; }
   #experiencias i {
     margin: 0;
     padding: 0; }
+
+.algo {
+  height: 6vh;
+  width: 100%; }

@@ -387,11 +387,12 @@
 }
 // EXPERIENCIAS
 #experiencias {
-  margin-top: 7vh;
+  // margin-top: 7vh;
   background: $principal;
   @include desktop {
     // margin-top: 5rem;
   }
+  
   .marMob {
     height: auto;
     width: auto;
@@ -439,8 +440,8 @@
       // margin-bottom: 14rem;
   }}
   .cajaImagen {
-    width: 6rem;
-    height: 4rem;
+    width: 10rem;
+    height: 8rem;
     margin-left: -2rem;
     margin-right: -2rem;
     margin-bottom: -4rem;
@@ -448,8 +449,8 @@
     opacity: 0.3;
     z-index: 0;
     @media only screen and (min-width: 350px) {
-      width: 8rem;
-      height: 6rem;
+      width: 10rem;
+      height: 8rem;
     }
     @media only screen and (min-width: 450px) {
       width: 10rem;
@@ -502,7 +503,7 @@
       font-size: 1.2rem;
     }
   }
-  h4 {
+  a {
     color: $secundario;
     font-size: 1.2rem;
     width: auto;
@@ -529,10 +530,13 @@
   a {
     color: $secundario;
     text-decoration: none;
-    margin-bottom: 2rem;
   }
 i{
   margin: 0;
   padding: 0;
 }  
+}
+.algo{
+  height: 6vh;
+  width: 100%;
 }
